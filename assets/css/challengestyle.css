@@ -31,10 +31,10 @@ body {
 
 /* Sets font style for browser to display for nav, and moves nav bar to right of h1 tag */
 .header nav {
+    float: right;
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -60,15 +60,14 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../Week1ChallegeImages/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 /* specifies the width of the section and its position on the page */
 .content {
     width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    display: inline-block
 }
 
 /* moves the content to the left */
