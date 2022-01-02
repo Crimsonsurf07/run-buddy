@@ -20,8 +20,7 @@ body {
 
 /* allows header h1 tag to be on same line as other element(s) */
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+    
 }
 
 /* Changes color of select font */
